@@ -1,0 +1,11 @@
+d={"rno":2654,"name":"gokul"}
+d["age"]=18
+print(d)
+d["age"]=20
+print(d)
+d.pop("rno")
+print(d)
+d.popitem()
+print(d)
+d.clear()
+print(d)
